@@ -1,4 +1,4 @@
 streamlit
 streamlit_lottie
 load_lottieurl
-
+C:\Users\Bananatree\Desktop>pip install requests
