@@ -1,4 +1,4 @@
 streamlit
-streamlit_lottie
+pip install streamlit_lottie
 load_lottieurl
-pip install requests
+
