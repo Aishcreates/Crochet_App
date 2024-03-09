@@ -17,7 +17,7 @@ with st.container():
         st.header("What our team does")
         st.write("##")
         st.write(
-          " " "
+          """
           On our website (designed by the buisness's co-owner) we sell items that were crocheted by hand as well as other crochet items that are very cheap compared to some original prices,
           these crochet items are good for:
           - Gifting (Options such as handbags, amugarami etc.)
@@ -25,5 +25,5 @@ with st.container():
           - Or just fashion in general!
 
           If this sounds interesting to you, consider buying our products and supporing us!
-          " " "
+          """
         
