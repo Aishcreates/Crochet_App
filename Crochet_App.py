@@ -38,5 +38,5 @@ with st.container():
           If this sounds interesting to you, consider buying our products and supporing us!
           """
         ) 
-with right_column:
-    st.lottie(lottie_coding, height=300, key= "yarn")
+#with right_column:
+    #st.lottie(lottie_coding, height=300, key= "yarn")
