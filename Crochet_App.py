@@ -12,7 +12,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    left column, right column - st.columns(2)
+    left column, right column = st.columns(2)
     with left_column:
         st.header("What our team does")
         st.write("##")
