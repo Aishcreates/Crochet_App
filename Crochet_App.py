@@ -5,11 +5,11 @@ from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="Homemade Sunshine", page_icon=":tada:", layout="wide")
 
-def load_lottieur(url):
+def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
         return None
-    return r.json()
+    return r.json() 
 
 lottie_coding = load_lottieurl("https://lottie.host/239ca0ff-f380-4efd-9bba-d65247c3bce3/9jvTkF3UCJ.json")
 
