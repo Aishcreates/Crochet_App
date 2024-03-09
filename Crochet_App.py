@@ -11,7 +11,7 @@ def load_lottieur(url):
         return None
     return r.json()
 
-lottie_coding = load_lottieurl("https://lottie.host/embed/239ca0ff-f380-4efd-9bba-d65247c3bce3/9jvTkF3UCJ.json")
+lottie_coding = load_lottieurl("https://lottie.host/239ca0ff-f380-4efd-9bba-d65247c3bce3/9jvTkF3UCJ.json")
 
 
 with st.container():
