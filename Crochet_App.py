@@ -26,4 +26,4 @@ with st.container():
 
           If this sounds interesting to you, consider buying our products and supporing us!
           """
-        
+        ) 
