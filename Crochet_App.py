@@ -1,7 +1,18 @@
+import requests
 import streamlit as st
+from streamlit_lottie import st_lottie
 
 
 st.set_page_config(page_title="Homemade Sunshine", page_icon=":tada:", layout="wide")
+
+def load_lottieur(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+lottie_coding = load_lottieurl("https://lottie.host/35d882dd-7b61-41a3-8ecb-ccb1523427c4/Zk4ru4jjNI.json")
+
 
 with st.container():
     st.subheader("Welocme to Homemade sunshine! :wave:")
